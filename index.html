@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoL Guessing Game</title>
+
+    <!-- Our Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap Stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- Body -->
+
+  <header><span>League of Legends Ability Guessing Game</span></header>
+
+  <body>
+    <div class="note">
+      Note: Don't use spaces or apostrophes when guessing champions!
+    </div>
+    <div class="question">Which champion does this ability belong to?</div>
+    <div class="container"></div>
+    <form class="form">
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control textbox"
+          id="champion-guess"
+          placeholder="Teemo..."
+        />
+      </div>
+      <button type="submit" class="btn btn-primary guess-button">Guess</button>
+    </form>
+    <div class="giveup-hint">
+      <button class="btn btn-success hint-button">Hint</button>
+      <button class="btn btn-danger give-up">Give Up</button>
+    </div>
+
+    <div class="bottom-container">
+      <div class="response"></div>
+
+      <div class="hint hint-text"></div>
+
+      <div class="give-up-container give-up-text"></div>
+    </div>
+
+    <!-- SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Our Javascript -->
+    <script src="app.js"></script>
+
+    <!-- Bootstrap -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Database -->
+    <script src="database.js"></script>
+  </body>
+</html>

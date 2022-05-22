@@ -1,0 +1,112 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header span {
+  font-size: 36px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  background-color: #adb5bd;
+}
+
+.note {
+  display: flex;
+  justify-content: center;
+  color: #e03131;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+img {
+  width: 190px;
+  height: 190px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+header {
+  width: auto;
+  height: 5rem;
+  background-color: #37b24d;
+}
+
+.question {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.form {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.bottom-container {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.giveup-hint {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.correct-text {
+  font-size: 52px;
+  color: #37b24d;
+  text-align: center;
+  margin-top: 1rem;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+
+.incorrect-text {
+  font-size: 44px;
+  color: #e03131;
+  text-align: center;
+  margin-top: 1rem;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+}
+
+.hint-text {
+  font-size: 24px;
+  align-self: center;
+  justify-self: center;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.give-up-text {
+  font-size: 44px;
+  color: #e03131;
+  grid-column: 2;
+  grid-row: 3;
+  align-self: center;
+  justify-self: center;
+}
