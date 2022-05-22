@@ -11,7 +11,7 @@ const championsArray = [
   'Ahri',
   'Akali',
   'Akshan',
-  // 'AurelionSol',
+  'AurelionSol',
   // 'Azir',
   // 'Evelynn',
 ];
