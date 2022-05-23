@@ -9,3 +9,6 @@ Used to practice
 - Bootstrap
 - JavaScript
 - jQuery
+
+View live here
+https://brianguyen97.github.io/lol-guessing-game/
