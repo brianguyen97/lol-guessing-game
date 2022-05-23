@@ -72,4 +72,37 @@ const hints = {
   Annie:
     'This champion is an ability power character and their main role is mid.',
   Bard: 'This champion is an ability power character and their main role is support.',
+  Braum: 'This champion is a tank and their main role is support.',
+  Caitlyn:
+    'This champion is an attack damage character and their main role is ADC.',
+  DrMundo: 'This champion is a tank and their main role is top.',
+  Cassiopeia:
+    'This champion is an ability power character and their main role is mid.',
+  Diana:
+    'This champion is an ability power character and their main role is jungle.',
+  Camille:
+    'This champion is an attack damage character and their main role is top.',
+  LeeSin:
+    'This champion is an attack damage character and their main role is jungle.',
+  Kayn: 'This champion is an attack damage character and their main role is jungle.',
+  Lucian:
+    'This champion is an attack damage character and their main role is ADC.',
+  Nami: 'This champion is an ability power character and their main role is support.',
+  Qiyana:
+    'This champion is an attack damage character and their main role is mid.',
+  Pyke: 'This champion is an attack damage character and their main role is support.',
+  Soraka:
+    'This champion is an ability power character and their main role is support.',
+  Seraphine:
+    'This champion is an ability power character and their main role is support.',
+  Shen: 'This champion is a tank and their main role is top.',
+  Sejuani: 'This champion is a tank and their main role is jungle.',
+  Sion: 'This champion is a tank and their main role is top.',
+  Sett: 'This champion is an attack damage character and their main role is top.',
+  Sona: 'This champion is an ability power character and their main role is support.',
+  Orianna:
+    'This champion is an ability power character and their main role is mid.',
+  Lux: 'This champion is an ability power character and their main roles are mid and support.',
+  Quinn:
+    'This champion is an attack damage character and their main role is top.',
 };
