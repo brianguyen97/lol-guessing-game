@@ -1,5 +1,3 @@
-console.log('LOADED');
-
 const random = array => {
   let randomNum = Math.floor(Math.random() * array.length);
   return array[randomNum];
@@ -45,16 +43,12 @@ $(document).ready(() => {
   const spell = random(qwer);
 
   $('.container').append(`<img src="done/${champ}${spell}.png" alt=""></img>`);
-  // $('.container').append(
-  //   `<img src="https://github.com/brianguyen97/lol-guessing-game/blob/main/done/${champ}${spell}.png" alt="champion-ability-icon"> </img>`
-  // );
 
   $('.form').submit(e => {
     e.preventDefault();
     console.log(`${hints[champ]}`);
     const $val = $('.textbox').val();
     if ($val.toLowerCase() === champ.toLowerCase()) {
-      //   alert('Correct!');
       $('.response')
         .empty()
         .addClass('correct-text')
@@ -65,7 +59,6 @@ $(document).ready(() => {
         location.reload(true);
       }, 2000);
     } else {
-      //   alert('Incorrect!');
       $('.response')
         .addClass('incorrect-text')
         .removeClass('correct-text')
@@ -73,8 +66,6 @@ $(document).ready(() => {
       $('.textbox').val('');
     }
   });
-
-  console.log(`${hints[champ]}`);
 
   $('.hint-button').click(() => {
     $('.hint').html(`${hints[champ]}`);
