@@ -105,4 +105,43 @@ const hints = {
   Lux: 'This champion is an ability power character and their main roles are mid and support.',
   Quinn:
     'This champion is an attack damage character and their main role is top.',
+  Samira:
+    'This champion is an attack damage character and their main role is ADC.',
+  Senna:
+    'This champion is an attack damage character and their main role is support.',
+  Ryze: 'This champion is an ability power character and their main roles are mid and top.',
+  Zac: 'This champion is a tank and their main role is jungle.',
+  Zed: 'This champion is an attack damage character and their main role is mid.',
+  Zeri: 'This champion is an attack damage character and their main role is ADC.',
+  Ziggs:
+    'This champion is an ability power character and their main role is mid.',
+  XinZhao:
+    'This champion is an attack damage character and their main role is jungle.',
+  Warwick:
+    'This champion is an attack damage character and their main role is jungle.',
+  Yorick:
+    'This champion is an attack damage character and their main role is top.',
+  Yasuo:
+    'This champion is an attack damage character and their main role is mid.',
+  Tristana:
+    'This champion is an attack damage character and their main role is ADC.',
+  Sylas:
+    'This champion is an ability power character and their main role is mid.',
+
+  Rumble:
+    'This champion is an ability power character and their main role is top.',
+  Rengar:
+    'This champion is an attack damage character and their main role is jungle.',
+  Rakan:
+    'This champion is an ability power character and their main role is support.',
+  Urgot:
+    'This champion is an attack damage character and their main role is top.',
+  Talon:
+    'This champion is an attack damage character and their main roles are mid and jungle.',
+  Viego:
+    'This champion is an attack damage character and their main role is jungle.',
+  Morgana:
+    'This champion is an ability power character and their main role is support.',
+  Nasus:
+    'This champion is an attack damage character and their main role is top.',
 };
