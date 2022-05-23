@@ -97,6 +97,9 @@ const championsArray = [
   'VelKoz',
   'Volibear',
   'Neeko',
+  'Leona',
+  'Tryndamere',
+  'Vayne',
 ];
 
 $(document).ready(() => {

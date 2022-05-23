@@ -150,4 +150,9 @@ const hints = {
   Volibear: 'This champion is a tank and their main role is top.',
   Neeko:
     'This champion is an ability power character and their main role is mid.',
+  Leona: 'This champion is a tank and their main role is support.',
+  Tryndamere:
+    'This champion is an attack damage character and their main role is top.',
+  Vayne:
+    'This champion is an attack damage character and their main role is ADC.',
 };
