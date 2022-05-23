@@ -6,23 +6,45 @@ const random = array => {
 };
 
 const qwer = ['Q', 'W', 'E', 'R'];
+
 const championsArray = [
   'Aatrox',
   'Ahri',
   'Akali',
   'Akshan',
   'AurelionSol',
-  // 'Azir',
-  // 'Evelynn',
+  'Azir',
+  'Brand',
+  'Evelynn',
+  'Yuumi',
+  'Yone',
+  'Zyra',
+  'Zoe',
+  'Ornn',
+  'Swain',
+  'Skarner',
+  'Nunu',
+  'Lulu',
+  'Lissandra',
+  'Lillia',
+  'Leblanc',
+  'Kled',
+  'Kindred',
+  'Ivern',
+  'Hecarim',
+  'Ekko',
+  'Ezreal',
+  'Fiddlesticks',
+  'Fizz',
+  'Garen',
+  'Gangplank',
 ];
 
 $(document).ready(() => {
   const champ = random(championsArray);
   const spell = random(qwer);
 
-  $('.container').append(
-    `<img src="/spell/${champ}${spell}.png" alt=""></img>`
-  );
+  $('.container').append(`<img src="/done/${champ}${spell}.png" alt=""></img>`);
 
   $('.form').submit(e => {
     e.preventDefault();
