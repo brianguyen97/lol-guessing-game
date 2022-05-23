@@ -36,6 +36,15 @@ const championsArray = [
   'Fizz',
   'Garen',
   'Gangplank',
+  'Gnar',
+  'Galio',
+  'Graves',
+  'Gragas',
+  'Gwen',
+  'Heimerdinger',
+  'Illaoi',
+  'Irelia',
+  'Jinx',
 ];
 
 $(document).ready(() => {
@@ -48,7 +57,10 @@ $(document).ready(() => {
     e.preventDefault();
     console.log(`${hints[champ]}`);
     const $val = $('.textbox').val();
-    if ($val.toLowerCase() === champ.toLowerCase()) {
+    if (
+      $val.toLowerCase().replaceAll(' ', '') ===
+      champ.toLowerCase().replaceAll(' ', '')
+    ) {
       $('.response')
         .empty()
         .addClass('correct-text')

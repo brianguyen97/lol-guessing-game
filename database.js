@@ -47,4 +47,19 @@ const hints = {
     'This champion is an attack damage character and their main role is top.',
   Gangplank:
     'This champion is an attack damage character and their main role is top.',
+  Gnar: 'This champion is an attack damage character and their main role is top.',
+  Galio:
+    'This champion is an ability power character and their main role is mid.',
+  Graves:
+    'This champion is an attack damage character and their main role is jungle.',
+  Gragas:
+    'This champion is an ability power character and their main role is top.',
+  Gwen: 'This champion is an ability power and their main role is top.',
+  Heimerdinger:
+    'This champion is an ability power character and their main role is top and mid.',
+  Illaoi:
+    'This champion is an attack damage character and their main role is top.',
+  Irelia:
+    'This champion is an attack damage character and their main roles are top and mid.',
+  Jinx: 'This champion is an attack damage character and their main role is ADC.',
 };
