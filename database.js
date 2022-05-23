@@ -62,4 +62,14 @@ const hints = {
   Irelia:
     'This champion is an attack damage character and their main roles are top and mid.',
   Jinx: 'This champion is an attack damage character and their main role is ADC.',
+  Jhin: 'This champion is an attack damage character and their main role is ADC.',
+  Kaisa:
+    'This champion is an attack damage character and their main role is ADC.',
+  Kayle:
+    'This champion is an ability power character and their main role is top.',
+  Khazix:
+    'This champion is an attack damage character and their main role is jungle.',
+  Annie:
+    'This champion is an ability power character and their main role is mid.',
+  Bard: 'This champion is an ability power character and their main role is support.',
 };

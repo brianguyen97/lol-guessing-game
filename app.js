@@ -45,6 +45,12 @@ const championsArray = [
   'Illaoi',
   'Irelia',
   'Jinx',
+  'Jhin',
+  'Kaisa',
+  'Kayle',
+  'Khazix',
+  'Annie',
+  'Bard',
 ];
 
 $(document).ready(() => {
