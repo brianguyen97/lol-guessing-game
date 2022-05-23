@@ -44,12 +44,10 @@ $(document).ready(() => {
   const champ = random(championsArray);
   const spell = random(qwer);
 
+  $('.container').append(`<img src="done/${champ}${spell}.png" alt=""></img>`);
   // $('.container').append(
-  //   `<img src="../done/${champ}${spell}.png" alt=""></img>`
+  //   `<img src="https://github.com/brianguyen97/lol-guessing-game/blob/main/done/${champ}${spell}.png" alt="champion-ability-icon"> </img>`
   // );
-  $('.container').append(
-    `<img src="https://github.com/brianguyen97/lol-guessing-game/blob/main/done/${champ}${spell}.png" alt="champion-ability-icon"> </img>`
-  );
 
   $('.form').submit(e => {
     e.preventDefault();
