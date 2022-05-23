@@ -96,7 +96,7 @@ $(document).ready(() => {
     'Morgana',
     'Nasus',
     'Vi',
-    'VelKoz',
+    'Velkoz',
     'Volibear',
     'Neeko',
     'Leona',
