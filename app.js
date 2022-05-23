@@ -93,6 +93,10 @@ const championsArray = [
   'Viego',
   'Morgana',
   'Nasus',
+  'Vi',
+  'VelKoz',
+  'Volibear',
+  'Neeko',
 ];
 
 $(document).ready(() => {

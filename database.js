@@ -144,4 +144,10 @@ const hints = {
     'This champion is an ability power character and their main role is support.',
   Nasus:
     'This champion is an attack damage character and their main role is top.',
+  Vi: 'This champion is an attack damage character and their main role is jungle.',
+  VelKoz:
+    'This champion is an ability power character and their main role is mid and support.',
+  Volibear: 'This champion is a tank and their main role is top.',
+  Neeko:
+    'This champion is an ability power character and their main role is mid.',
 };
