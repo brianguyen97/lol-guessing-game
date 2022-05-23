@@ -46,7 +46,7 @@ $(document).ready(() => {
 
   // $('.container').append(`<img src="/done/${champ}${spell}.png" alt=""></img>`);
   $('.container').append(
-    `https://github.com/brianguyen97/lol-guessing-game/blob/main/done/${champ}${spell}.png`
+    `<img src="https://github.com/brianguyen97/lol-guessing-game/blob/main/done/${champ}${spell}.png"></img>`
   );
 
   $('.form').submit(e => {
