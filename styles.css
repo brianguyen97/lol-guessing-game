@@ -20,7 +20,7 @@ header span {
 body {
   font-family: 'Inter', sans-serif;
   color: #343a40;
-  background-color: #adb5bd;
+  background-color: #ced4da;
 }
 
 .note {
@@ -32,8 +32,8 @@ body {
 }
 
 img {
-  width: 190px;
-  height: 190px;
+  width: 220px;
+  height: 220px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -43,7 +43,7 @@ img {
 header {
   width: auto;
   height: 5rem;
-  background-color: #37b24d;
+  background-color: #4dabf7;
 }
 
 .question {
@@ -109,4 +109,15 @@ header {
   grid-row: 3;
   align-self: center;
   justify-self: center;
+}
+
+.form-control {
+  width: 15rem;
+}
+
+.yes {
+  margin-top: 10rem;
+  width: 100%;
+  height: 2rem;
+  background-color: #4dabf7;
 }
